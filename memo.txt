@@ -1,0 +1,11 @@
+=======================
+// @ to run hexo-server in package.json
+"hexo": {
+  "version": "3.2.0"
+}
+// to run hexo-server in package.json @
+
+
+E.g.
+http://blog.zhangruipeng.me/hexo-theme-icarus/
+https://github.com/ppoffice/hexo-theme-icarus/tree/site/source/_posts
