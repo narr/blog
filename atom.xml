@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Narr&#39;s Blog</title>
+  
+  <link href="/blog/atom.xml" rel="self"/>
+  
+  <link href="https://narr.github.io/"/>
+  <updated>2016-05-15T04:38:36.000Z</updated>
+  <id>https://narr.github.io/</id>
+  
+  <author>
+    <name>Jason Seonhong Kim</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The First Post</title>
+    <link href="https://narr.github.io/2016/05/15/first-post/"/>
+    <id>https://narr.github.io/2016/05/15/first-post/</id>
+    <published>2016-05-15T00:25:05.000Z</published>
+    <updated>2016-05-15T04:38:36.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;My-very-first-post&quot;&gt;&lt;a href=&quot;#My-very-first-post&quot; class=&quot;headerlink&quot; title=&quot;My very first post&quot;&gt;&lt;/a&gt;My very first post&lt;/h2&gt;&lt;img src=&quot;/blog/2016/05/15/first-post/sky.png&quot; alt=&quot;First&quot; title=&quot;First&quot;&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;The-repository-for-this-blog&quot;&gt;&lt;a href=&quot;#The-repository-for-this-blog&quot; class=&quot;headerlink&quot; title=&quot;The repository for this blog&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/narr/blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The repository for this blog&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Clone&quot;&gt;&lt;a href=&quot;#Clone&quot; class=&quot;headerlink&quot; title=&quot;Clone&quot;&gt;&lt;/a&gt;Clone&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/narr/blog.git&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h3 id=&quot;Run-development-server&quot;&gt;&lt;a href=&quot;#Run-development-server&quot; class=&quot;headerlink&quot; title=&quot;Run development server&quot;&gt;&lt;/a&gt;Run development server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm run server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;Open a browser on localhost:8080&lt;/p&gt;
+&lt;h3 id=&quot;Deploy-to-Github&quot;&gt;&lt;a href=&quot;#Deploy-to-Github&quot; class=&quot;headerlink&quot; title=&quot;Deploy to Github&quot;&gt;&lt;/a&gt;Deploy to &lt;a href=&quot;https://github.com/narr/blog/tree/gh-pages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ npm run deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;h2 id=&quot;Ref&quot;&gt;&lt;a href=&quot;#Ref&quot; class=&quot;headerlink&quot; title=&quot;Ref.&quot;&gt;&lt;/a&gt;Ref.&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/ppoffice/hexo-theme-icarus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-theme-icarus&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;My-very-first-post&quot;&gt;&lt;a href=&quot;#My-very-first-post&quot; class=&quot;headerlink&quot; title=&quot;My very first post&quot;&gt;&lt;/a&gt;My very first post&lt;/h2&gt;&lt;img src=&quot;/blog/2016/05/15/first-post/sky.png&quot; alt=&quot;First&quot; title=&quot;First&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="first" scheme="https://narr.github.io/tags/first/"/>
+    
+  </entry>
+  
+</feed>
