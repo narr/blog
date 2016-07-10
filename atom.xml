@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-07-09T18:40:15.000Z</updated>
+  <updated>2016-07-10T08:14:57.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Is a prime number</title>
+    <link href="https://narr.github.io/2016/07/10/is-a-prime-number/"/>
+    <id>https://narr.github.io/2016/07/10/is-a-prime-number/</id>
+    <published>2016-07-10T06:50:11.000Z</published>
+    <updated>2016-07-10T08:14:57.000Z</updated>
+    
+    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return boolean for checking if it is a prime number.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return boolean for checking if it is a prime number.&lt;/a&gt;&lt;/h2&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;iframe id=&quot;cp_embed_vKZpZG&quot; src=&quot;//codepen.io/narr/embed/vKZpZG?height=980&amp;theme-id=0&amp;slug-hash=vKZpZG&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;980&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return boolean for checking if it is a prime number.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot;&gt;Write a function to return boolean for checking if it is a prime number.&lt;/a&gt;&lt;/h2&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Reorder an array with given indexes</title>
