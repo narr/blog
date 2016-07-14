@@ -1,5 +1,5 @@
 ---
-title: greatest common divisor
+title: Greatest Common Divisor
 date: 2016-07-14 15:28:46
 tags:
 - algorithm
