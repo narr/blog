@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-07-31T07:05:17.000Z</updated>
+  <updated>2016-07-31T08:38:17.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>String reverse</title>
+    <link href="https://narr.github.io/2016/07/31/string-reverse/"/>
+    <id>https://narr.github.io/2016/07/31/string-reverse/</id>
+    <published>2016-07-31T08:07:22.000Z</published>
+    <updated>2016-07-31T08:38:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-a-reversed-string-for-given-string"><a href="#Write-a-function-to-return-a-reversed-string-for-given-string" class="headerlink" title="Write a function to return a reversed string for given string"></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return a reversed string for given string</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">reverse(<span class="string">'you are a nice dude'</span>);</div><div class="line"><span class="comment">// "edud ecin a era uoy"</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_KrBBgq" src="//codepen.io/narr/embed/KrBBgq?height=650&theme-id=0&slug-hash=KrBBgq&default-tab=js" scrolling="no" frameborder="no" height="650" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Write-a-function-to-return-a-reversed-string-for-given-string&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-a-reversed-string-for-given-string&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return a reversed string for given string&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot;&gt;Write a function to return a reversed string for given string&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;reverse(&lt;span class=&quot;string&quot;&gt;&#39;you are a nice dude&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// &quot;edud ecin a era uoy&quot;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Swap number without temp</title>
