@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-07-15T07:54:42.000Z</updated>
+  <updated>2016-07-31T04:50:41.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -16,16 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Find point</title>
+    <link href="https://narr.github.io/2016/07/31/find-point/"/>
+    <id>https://narr.github.io/2016/07/31/find-point/</id>
+    <published>2016-07-31T02:53:53.000Z</published>
+    <updated>2016-07-31T04:50:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q"><a href="#Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q" class="headerlink" title="Given two points P and Q, output the symmetric point of point P about Q"></a><a href="https://www.hackerrank.com/challenges/find-point" target="_blank" rel="external">Given two points P and Q, output the symmetric point of point P about Q</a></h2><img src="/blog/2016/07/31/find-point/find-point.png" alt="Find point" title="Find point">
+<a id="more"></a>
+<p><br><iframe id="cp_embed_vKaAXa" src="//codepen.io/narr/embed/vKaAXa?height=800&theme-id=0&slug-hash=vKaAXa&default-tab=js" scrolling="no" frameborder="no" height="800" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q&quot;&gt;&lt;a href=&quot;#Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q&quot; class=&quot;headerlink&quot; title=&quot;Given two points P and Q, output the symmetric point of point P about Q&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.hackerrank.com/challenges/find-point&quot;&gt;Given two points P and Q, output the symmetric point of point P about Q&lt;/a&gt;&lt;/h2&gt;&lt;img src=&quot;/blog/2016/07/31/find-point/find-point.png&quot; alt=&quot;Find point&quot; title=&quot;Find point&quot;&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Merge two sorted arrays</title>
     <link href="https://narr.github.io/2016/07/15/merge-two-sorted-arrays/"/>
     <id>https://narr.github.io/2016/07/15/merge-two-sorted-arrays/</id>
-    <published>2016-07-15T05:57:59.000Z</published>
+    <published>2016-07-15T06:57:59.000Z</published>
     <updated>2016-07-15T07:54:42.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-an-array-that-two-arrays-are-merged-in&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-an-array-that-two-arrays-are-merged-in&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return an array that two arrays are merged in&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return an array that two arrays are merged in&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;mergeSortedArray([&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;9&lt;/span&gt;], [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;29&lt;/span&gt;]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// [1, 2, 2, 3, 5, 6, 9, 29]&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe id=&quot;cp_embed_PzEKLG&quot; src=&quot;//codepen.io/narr/embed/PzEKLG?height=1240&amp;theme-id=0&amp;slug-hash=PzEKLG&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;1240&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-an-array-that-two-arrays-are-merged-in"><a href="#Write-a-function-to-return-an-array-that-two-arrays-are-merged-in" class="headerlink" title="Write a function to return an array that two arrays are merged in"></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return an array that two arrays are merged in</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">mergeSortedArray([<span class="number">2</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">9</span>], [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">29</span>]);</div><div class="line"><span class="comment">// [1, 2, 2, 3, 5, 6, 9, 29]</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_PzEKLG" src="//codepen.io/narr/embed/PzEKLG?height=1240&theme-id=0&slug-hash=PzEKLG&default-tab=js" scrolling="no" frameborder="no" height="1240" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
     
     <summary type="html">
     
@@ -42,13 +65,13 @@
     <title>Remove Duplicate</title>
     <link href="https://narr.github.io/2016/07/15/remove-duplicate/"/>
     <id>https://narr.github.io/2016/07/15/remove-duplicate/</id>
-    <published>2016-07-15T04:02:25.000Z</published>
+    <published>2016-07-15T05:02:25.000Z</published>
     <updated>2016-07-15T04:39:16.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-an-array-that-duplicate-primitive-values-are-removed-in&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-an-array-that-duplicate-primitive-values-are-removed-in&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return an array that duplicate primitive values are removed in&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return an array that duplicate primitive values are removed in&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;removeDuplicate([&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// [1, 3, 5, 6, 7, 8]&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe id=&quot;cp_embed_WxdExx&quot; src=&quot;//codepen.io/narr/embed/WxdExx?height=940&amp;theme-id=0&amp;slug-hash=WxdExx&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;940&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-an-array-that-duplicate-primitive-values-are-removed-in"><a href="#Write-a-function-to-return-an-array-that-duplicate-primitive-values-are-removed-in" class="headerlink" title="Write a function to return an array that duplicate primitive values are removed in"></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return an array that duplicate primitive values are removed in</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">removeDuplicate([<span class="number">1</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">1</span>]);</div><div class="line"><span class="comment">// [1, 3, 5, 6, 7, 8]</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_WxdExx" src="//codepen.io/narr/embed/WxdExx?height=940&theme-id=0&slug-hash=WxdExx&default-tab=js" scrolling="no" frameborder="no" height="940" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
     
     <summary type="html">
     
@@ -65,13 +88,13 @@
     <title>Greatest Common Divisor</title>
     <link href="https://narr.github.io/2016/07/14/greatest-common-divisor/"/>
     <id>https://narr.github.io/2016/07/14/greatest-common-divisor/</id>
-    <published>2016-07-14T06:28:46.000Z</published>
+    <published>2016-07-14T07:28:46.000Z</published>
     <updated>2016-07-14T07:51:49.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-GCD-Greatest-Common-Divisor-of-two-numbers&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-GCD-Greatest-Common-Divisor-of-two-numbers&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return GCD(Greatest Common Divisor) of two numbers&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return GCD(Greatest Common Divisor) of two numbers&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;greatestCommonDivisor(&lt;span class=&quot;number&quot;&gt;14&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;21&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 7;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;greatestCommonDivisor(&lt;span class=&quot;number&quot;&gt;69&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;169&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 1;&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe id=&quot;cp_embed_akEbKL&quot; src=&quot;//codepen.io/narr/embed/akEbKL?height=1110&amp;theme-id=0&amp;slug-hash=akEbKL&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;1110&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-GCD-Greatest-Common-Divisor-of-two-numbers"><a href="#Write-a-function-to-return-GCD-Greatest-Common-Divisor-of-two-numbers" class="headerlink" title="Write a function to return GCD(Greatest Common Divisor) of two numbers"></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return GCD(Greatest Common Divisor) of two numbers</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">greatestCommonDivisor(<span class="number">14</span>, <span class="number">21</span>);</div><div class="line"><span class="comment">// 7;</span></div><div class="line"></div><div class="line">greatestCommonDivisor(<span class="number">69</span>, <span class="number">169</span>);</div><div class="line"><span class="comment">// 1;</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_akEbKL" src="//codepen.io/narr/embed/akEbKL?height=1110&theme-id=0&slug-hash=akEbKL&default-tab=js" scrolling="no" frameborder="no" height="1110" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
     
     <summary type="html">
     
@@ -88,13 +111,13 @@
     <title>Fibonacci Number</title>
     <link href="https://narr.github.io/2016/07/11/fibonacci-number/"/>
     <id>https://narr.github.io/2016/07/11/fibonacci-number/</id>
-    <published>2016-07-10T16:36:39.000Z</published>
+    <published>2016-07-10T17:36:39.000Z</published>
     <updated>2016-07-12T16:37:06.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-the-nth-Fibonacci-number&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-the-nth-Fibonacci-number&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return the nth Fibonacci number&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return the nth Fibonacci number&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;fibonacci(&lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 1&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;fibonacci(&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 1&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;fibonacci(&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 2&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;fibonacci(&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 3&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;fibonacci(&lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 5&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;//&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 1, 1, 2, 3, 5, 8, 13, 21, ···&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe id=&quot;cp_embed_AXQadw&quot; src=&quot;//codepen.io/narr/embed/AXQadw?height=780&amp;theme-id=0&amp;slug-hash=AXQadw&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;780&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-the-nth-Fibonacci-number"><a href="#Write-a-function-to-return-the-nth-Fibonacci-number" class="headerlink" title="Write a function to return the nth Fibonacci number"></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return the nth Fibonacci number</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">fibonacci(<span class="number">0</span>);</div><div class="line"><span class="comment">// 1</span></div><div class="line">fibonacci(<span class="number">1</span>);</div><div class="line"><span class="comment">// 1</span></div><div class="line">fibonacci(<span class="number">2</span>);</div><div class="line"><span class="comment">// 2</span></div><div class="line">fibonacci(<span class="number">3</span>);</div><div class="line"><span class="comment">// 3</span></div><div class="line">fibonacci(<span class="number">4</span>);</div><div class="line"><span class="comment">// 5</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// 1, 1, 2, 3, 5, 8, 13, 21, ···</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_AXQadw" src="//codepen.io/narr/embed/AXQadw?height=780&theme-id=0&slug-hash=AXQadw&default-tab=js" scrolling="no" frameborder="no" height="780" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
     
     <summary type="html">
     
@@ -111,13 +134,13 @@
     <title>Prime factors</title>
     <link href="https://narr.github.io/2016/07/10/prime-factors/"/>
     <id>https://narr.github.io/2016/07/10/prime-factors/</id>
-    <published>2016-07-10T11:44:10.000Z</published>
+    <published>2016-07-10T12:44:10.000Z</published>
     <updated>2016-07-10T16:17:22.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-an-array-for-prime-factors-of-a-number&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-an-array-for-prime-factors-of-a-number&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return an array for prime factors of a number&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return an array for prime factors of a number&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;primeFactors(&lt;span class=&quot;number&quot;&gt;69&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// [3, 23]&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe id=&quot;cp_embed_grGoqx&quot; src=&quot;//codepen.io/narr/embed/grGoqx?height=1850&amp;theme-id=0&amp;slug-hash=grGoqx&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;1850&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-an-array-for-prime-factors-of-a-number"><a href="#Write-a-function-to-return-an-array-for-prime-factors-of-a-number" class="headerlink" title="Write a function to return an array for prime factors of a number"></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return an array for prime factors of a number</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">primeFactors(<span class="number">69</span>);</div><div class="line"><span class="comment">// [3, 23]</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_grGoqx" src="//codepen.io/narr/embed/grGoqx?height=1850&theme-id=0&slug-hash=grGoqx&default-tab=js" scrolling="no" frameborder="no" height="1850" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
     
     <summary type="html">
     
@@ -134,12 +157,12 @@
     <title>Is a prime number</title>
     <link href="https://narr.github.io/2016/07/10/is-a-prime-number/"/>
     <id>https://narr.github.io/2016/07/10/is-a-prime-number/</id>
-    <published>2016-07-10T06:50:11.000Z</published>
+    <published>2016-07-10T07:50:11.000Z</published>
     <updated>2016-07-10T08:14:57.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return boolean for checking if it is a prime number.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Write a function to return boolean for checking if it is a prime number.&lt;/a&gt;&lt;/h2&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;iframe id=&quot;cp_embed_vKZpZG&quot; src=&quot;//codepen.io/narr/embed/vKZpZG?height=980&amp;theme-id=0&amp;slug-hash=vKZpZG&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;980&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number"><a href="#Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number" class="headerlink" title="Write a function to return boolean for checking if it is a prime number."></a><a href="http://www.thatjsdude.com/interview/js1.html" target="_blank" rel="external">Write a function to return boolean for checking if it is a prime number.</a></h2><a id="more"></a>
+<iframe id="cp_embed_vKZpZG" src="//codepen.io/narr/embed/vKZpZG?height=980&theme-id=0&slug-hash=vKZpZG&default-tab=js" scrolling="no" frameborder="no" height="980" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+]]></content>
     
     <summary type="html">
     
@@ -156,13 +179,13 @@
     <title>Reorder an array with given indexes</title>
     <link href="https://narr.github.io/2016/07/09/reorder-an-array-with-given-indexes/"/>
     <id>https://narr.github.io/2016/07/09/reorder-an-array-with-given-indexes/</id>
-    <published>2016-07-09T09:07:03.000Z</published>
+    <published>2016-07-09T10:07:03.000Z</published>
     <updated>2016-07-09T18:40:15.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length&quot;&gt;&lt;a href=&quot;#We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length&quot; class=&quot;headerlink&quot; title=&quot;We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.careercup.com/question?id=5756151524229120&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; A = [C, D, E, F, G];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; B = [&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;sort(A, B);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// A is now [D, F, G, C, E];&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;iframe id=&quot;cp_embed_jAGyXm&quot; src=&quot;//codepen.io/narr/embed/jAGyXm?height=1700&amp;theme-id=0&amp;slug-hash=jAGyXm&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;1700&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length"><a href="#We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length" class="headerlink" title="We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length."></a><a href="https://www.careercup.com/question?id=5756151524229120" target="_blank" rel="external">We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> A = [C, D, E, F, G];</div><div class="line"><span class="keyword">var</span> B = [<span class="number">3</span>, <span class="number">0</span>, <span class="number">4</span>, <span class="number">1</span>, <span class="number">2</span>];</div><div class="line">sort(A, B);</div><div class="line"><span class="comment">// A is now [D, F, G, C, E];</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_jAGyXm" src="//codepen.io/narr/embed/jAGyXm?height=1700&theme-id=0&slug-hash=jAGyXm&default-tab=js" scrolling="no" frameborder="no" height="1700" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
     
     <summary type="html">
     
@@ -179,13 +202,13 @@
     <title>Pascal&#39;s triangle</title>
     <link href="https://narr.github.io/2016/07/07/triangle-of-pascal/"/>
     <id>https://narr.github.io/2016/07/07/triangle-of-pascal/</id>
-    <published>2016-07-07T13:08:13.000Z</published>
+    <published>2016-07-07T14:08:13.000Z</published>
     <updated>2016-07-08T14:59:56.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return the nth row in Pascal’s triangle&quot;&gt;&lt;/a&gt;Write a function to return the nth row in &lt;a href=&quot;https://en.wikipedia.org/wiki/Pascal%27s_triangle&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pascal’s triangle&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px; line-height: 2;&quot;&gt;For example,&lt;br&gt;getRow(1) returns 1&lt;br&gt;getRow(2) returns 1 1&lt;br&gt;getRow(3) returns 1 2 1&lt;br&gt;getRow(4) returns 1 3 3 1&lt;/span&gt;&lt;/p&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;iframe id=&quot;cp_embed_QErOvG&quot; src=&quot;//codepen.io/narr/embed/QErOvG?height=1240&amp;theme-id=0&amp;slug-hash=QErOvG&amp;default-tab=js&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; height=&quot;1240&quot; allowtransparency=&quot;true&quot; allowfullscreen=&quot;true&quot; class=&quot;cp_embed_iframe&quot; style=&quot;width: 100%; overflow: hidden;&quot;&gt;&lt;/iframe&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle"><a href="#Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle" class="headerlink" title="Write a function to return the nth row in Pascal’s triangle"></a>Write a function to return the nth row in <a href="https://en.wikipedia.org/wiki/Pascal%27s_triangle" target="_blank" rel="external">Pascal’s triangle</a></h2><p><span style="font-size: 16px; line-height: 2;">For example,<br>getRow(1) returns 1<br>getRow(2) returns 1 1<br>getRow(3) returns 1 2 1<br>getRow(4) returns 1 3 3 1</span></p>
+<a id="more"></a>
+<iframe id="cp_embed_QErOvG" src="//codepen.io/narr/embed/QErOvG?height=1240&theme-id=0&slug-hash=QErOvG&default-tab=js" scrolling="no" frameborder="no" height="1240" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
+]]></content>
     
     <summary type="html">
     
@@ -202,23 +225,23 @@
     <title>The First Post</title>
     <link href="https://narr.github.io/2016/05/15/first-post/"/>
     <id>https://narr.github.io/2016/05/15/first-post/</id>
-    <published>2016-05-15T00:25:05.000Z</published>
+    <published>2016-05-15T01:25:05.000Z</published>
     <updated>2016-05-15T04:38:36.000Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;My-very-first-post&quot;&gt;&lt;a href=&quot;#My-very-first-post&quot; class=&quot;headerlink&quot; title=&quot;My very first post&quot;&gt;&lt;/a&gt;My very first post&lt;/h2&gt;&lt;img src=&quot;/blog/2016/05/15/first-post/sky.png&quot; alt=&quot;First&quot; title=&quot;First&quot;&gt;
-&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;The-repository-for-this-blog&quot;&gt;&lt;a href=&quot;#The-repository-for-this-blog&quot; class=&quot;headerlink&quot; title=&quot;The repository for this blog&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://github.com/narr/blog&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The repository for this blog&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Clone&quot;&gt;&lt;a href=&quot;#Clone&quot; class=&quot;headerlink&quot; title=&quot;Clone&quot;&gt;&lt;/a&gt;Clone&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ git &lt;span class=&quot;built_in&quot;&gt;clone&lt;/span&gt; https://github.com/narr/blog.git&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;Install&quot;&gt;&lt;a href=&quot;#Install&quot; class=&quot;headerlink&quot; title=&quot;Install&quot;&gt;&lt;/a&gt;Install&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ npm install&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h3 id=&quot;Run-development-server&quot;&gt;&lt;a href=&quot;#Run-development-server&quot; class=&quot;headerlink&quot; title=&quot;Run development server&quot;&gt;&lt;/a&gt;Run development server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ npm run server&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Open a browser on localhost:8080&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-Github&quot;&gt;&lt;a href=&quot;#Deploy-to-Github&quot; class=&quot;headerlink&quot; title=&quot;Deploy to Github&quot;&gt;&lt;/a&gt;Deploy to &lt;a href=&quot;https://github.com/narr/blog/tree/gh-pages&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Github&lt;/a&gt;&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;$ npm run deploy&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;Ref&quot;&gt;&lt;a href=&quot;#Ref&quot; class=&quot;headerlink&quot; title=&quot;Ref.&quot;&gt;&lt;/a&gt;Ref.&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/ppoffice/hexo-theme-icarus&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;hexo-theme-icarus&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+    <content type="html"><![CDATA[<h2 id="My-very-first-post"><a href="#My-very-first-post" class="headerlink" title="My very first post"></a>My very first post</h2><img src="/blog/2016/05/15/first-post/sky.png" alt="First" title="First">
+<a id="more"></a>
+<p><br></p>
+<h2 id="The-repository-for-this-blog"><a href="#The-repository-for-this-blog" class="headerlink" title="The repository for this blog"></a><a href="https://github.com/narr/blog" target="_blank" rel="external">The repository for this blog</a></h2><p><br></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Clone"><a href="#Clone" class="headerlink" title="Clone"></a>Clone</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/narr/blog.git</div></pre></td></tr></table></figure>
+<h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
+<h3 id="Run-development-server"><a href="#Run-development-server" class="headerlink" title="Run development server"></a>Run development server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm run server</div></pre></td></tr></table></figure>
+<p>Open a browser on localhost:8080</p>
+<h3 id="Deploy-to-Github"><a href="#Deploy-to-Github" class="headerlink" title="Deploy to Github"></a>Deploy to <a href="https://github.com/narr/blog/tree/gh-pages" target="_blank" rel="external">Github</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm run deploy</div></pre></td></tr></table></figure>
+<h2 id="Ref"><a href="#Ref" class="headerlink" title="Ref."></a>Ref.</h2><ul>
+<li><a href="https://hexo.io/docs/" target="_blank" rel="external">hexo</a></li>
+<li><a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external">hexo-theme-icarus</a></li>
+</ul>
+]]></content>
     
     <summary type="html">
     
