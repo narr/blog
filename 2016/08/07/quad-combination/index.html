@@ -3,20 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Find point | Narr&#39;s Blog</title>
+    <title>Quad combination | Narr&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Given two points P and Q, output the symmetric point of point P about Q">
+    <meta name="description" content="Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S.Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Find point">
-<meta property="og:url" content="https://narr.github.io/2016/07/31/find-point/index.html">
+<meta property="og:title" content="Quad combination">
+<meta property="og:url" content="https://narr.github.io/2016/08/07/quad-combination/index.html">
 <meta property="og:site_name" content="Narr's Blog">
-<meta property="og:description" content="Given two points P and Q, output the symmetric point of point P about Q">
-<meta property="og:image" content="https://narr.github.io/blog/2016/07/31/find-point/find-point.png">
-<meta property="og:updated_time" content="2016-07-31T04:50:41.000Z">
+<meta property="og:description" content="Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S.Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null">
+<meta property="og:updated_time" content="2016-08-07T09:24:58.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Find point">
-<meta name="twitter:description" content="Given two points P and Q, output the symmetric point of point P about Q">
-<meta name="twitter:image" content="https://narr.github.io/blog/2016/07/31/find-point/find-point.png">
+<meta name="twitter:title" content="Quad combination">
+<meta name="twitter:description" content="Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S.Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null">
     
 
     
@@ -182,7 +180,7 @@ ga('send', 'pageview');
 </aside>
 
             
-            <section id="main"><article id="post-find-point" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-quad-combination" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -191,7 +189,7 @@ ga('send', 'pageview');
                 
     
         <h1 class="article-title" itemprop="name">
-            Find point
+            Quad combination
         </h1>
     
 
@@ -199,8 +197,8 @@ ga('send', 'pageview');
                     
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/07/31/find-point/">
-            <time datetime="2016-07-31T02:53:53.000Z" itemprop="datePublished">2016-07-31</time>
+        <a href="/blog/2016/08/07/quad-combination/">
+            <time datetime="2016-08-07T06:21:02.000Z" itemprop="datePublished">2016-08-07</time>
         </a>
     </div>
 
@@ -218,9 +216,9 @@ ga('send', 'pageview');
         <div class="article-entry" itemprop="articleBody">
         
             
-            <h2 id="Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q"><a href="#Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q" class="headerlink" title="Given two points P and Q, output the symmetric point of point P about Q"></a><a href="https://www.hackerrank.com/challenges/find-point" target="_blank" rel="external">Given two points P and Q, output the symmetric point of point P about Q</a></h2><img src="/blog/2016/07/31/find-point/find-point.png" alt="Find point" title="Find point">
+            <h3 id="Given-an-array-of-numbers-arr-and-a-number-S-find-4-different-numbers-in-arr-that-sum-up-to-S"><a href="#Given-an-array-of-numbers-arr-and-a-number-S-find-4-different-numbers-in-arr-that-sum-up-to-S" class="headerlink" title="Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S."></a>Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S.</h3><h3 id="Write-a-function-that-gets-arr-and-S-and-returns-an-array-with-4-indices-of-such-numbers-in-arr-or-null-if-no-such-combination-exists-Explain-and-code-the-most-efficient-solution-possible-and-analyze-its-runtime-and-space-complexity"><a href="#Write-a-function-that-gets-arr-and-S-and-returns-an-array-with-4-indices-of-such-numbers-in-arr-or-null-if-no-such-combination-exists-Explain-and-code-the-most-efficient-solution-possible-and-analyze-its-runtime-and-space-complexity" class="headerlink" title="Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null if no such combination exists. Explain and code the most efficient solution possible, and analyze its runtime and space complexity."></a>Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null if no such combination exists. Explain and code the most efficient solution possible, and analyze its runtime and space complexity.</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">findArrayQuadCombination([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>], <span class="number">12</span>);</div><div class="line"><span class="comment">// [0, 1, 2, 5]</span></div></pre></td></tr></table></figure>
 <a id="more"></a>
-<p><br><iframe id="cp_embed_vKaAXa" src="//codepen.io/narr/embed/vKaAXa?height=800&theme-id=0&slug-hash=vKaAXa&default-tab=js" scrolling="no" frameborder="no" height="800" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+<p><br><iframe id="cp_embed_akQoEk" src="//codepen.io/narr/embed/akQoEk?height=3820&theme-id=0&slug-hash=akQoEk&default-tab=js" scrolling="no" frameborder="no" height="3820" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
 
         
         </div>
@@ -231,7 +229,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/find-point/" data-id="cirkeo0j500015qzwxt85n21z" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirkeo0jr000f5qzwvwtyzvze" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -299,7 +297,7 @@ ga('send', 'pageview');
 
             
     
-        <a href="https://narr.github.io/blog/2016/07/31/find-point/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/07/31/find-point/">Comments</a>
+        <a href="https://narr.github.io/blog/2016/08/07/quad-combination/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/07/quad-combination/">Comments</a>
     
 
         </footer>
@@ -308,19 +306,10 @@ ga('send', 'pageview');
         
 <nav id="article-nav">
     
-        <a href="/blog/2016/07/31/swap-number-without-temp/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
-            <div class="article-nav-title">
-                
-                    Swap number without temp
-                
-            </div>
-        </a>
     
-    
-        <a href="/blog/2016/07/15/merge-two-sorted-arrays/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/blog/2016/08/04/smallest-substring-of-all-characters/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Older</strong>
-            <div class="article-nav-title">Merge two sorted arrays</div>
+            <div class="article-nav-title">Smallest substring of all characters</div>
         </a>
     
 </nav>
@@ -437,7 +426,7 @@ ga('send', 'pageview');
     var disqus_shortname = 'narr';
     
     
-    var disqus_url = 'https://narr.github.io/blog/2016/07/31/find-point/';
+    var disqus_url = 'https://narr.github.io/blog/2016/08/07/quad-combination/';
     
     (function() {
     var dsq = document.createElement('script');

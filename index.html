@@ -147,7 +147,7 @@ ga('send', 'pageview');
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                15
+                16
                 <span>posts</span>
             </div>
             <div class="article-info-block">
@@ -177,6 +177,132 @@ ga('send', 'pageview');
 
             
             <section id="main">
+    <article id="post-quad-combination" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/2016/08/07/quad-combination/">Quad combination</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/2016/08/07/quad-combination/">
+            <time datetime="2016-08-07T06:21:02.000Z" itemprop="datePublished">2016-08-07</time>
+        </a>
+    </div>
+
+
+                    
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><h3 id="Given-an-array-of-numbers-arr-and-a-number-S-find-4-different-numbers-in-arr-that-sum-up-to-S"><a href="#Given-an-array-of-numbers-arr-and-a-number-S-find-4-different-numbers-in-arr-that-sum-up-to-S" class="headerlink" title="Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S."></a>Given an array of numbers arr and a number S, find 4 different numbers in arr that sum up to S.</h3><h3 id="Write-a-function-that-gets-arr-and-S-and-returns-an-array-with-4-indices-of-such-numbers-in-arr-or-null-if-no-such-combination-exists-Explain-and-code-the-most-efficient-solution-possible-and-analyze-its-runtime-and-space-complexity"><a href="#Write-a-function-that-gets-arr-and-S-and-returns-an-array-with-4-indices-of-such-numbers-in-arr-or-null-if-no-such-combination-exists-Explain-and-code-the-most-efficient-solution-possible-and-analyze-its-runtime-and-space-complexity" class="headerlink" title="Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null if no such combination exists. Explain and code the most efficient solution possible, and analyze its runtime and space complexity."></a>Write a function that gets arr and S and returns an array with 4 indices of such numbers in arr, or null if no such combination exists. Explain and code the most efficient solution possible, and analyze its runtime and space complexity.</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">findArrayQuadCombination([<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>], <span class="number">12</span>);</div><div class="line"><span class="comment">// [0, 1, 2, 5]</span></div></pre></td></tr></table></figure></p>
+            <p class="article-more-link">
+                <a href="/blog/2016/08/07/quad-combination/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirkeo0jr000f5qzwvwtyzvze" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://narr.github.io/blog/2016/08/07/quad-combination/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/07/quad-combination/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-smallest-substring-of-all-characters" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -225,7 +351,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirg3o6n9000qaczvktqenhto" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirkeo0k2000n5qzw3gvbcqbx" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -351,7 +477,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirg3o6m30000aczvttplhvng" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirkeo0jj00045qzw5dv586c3" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -477,7 +603,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="cirg3o6mw000daczvau3t4l5t" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="cirkeo0jv000j5qzwe8ljyzx7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -603,7 +729,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/string-reverse/" data-id="cirg3o6nb000saczvz0jwr4n1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/string-reverse/" data-id="cirkeo0k8000r5qzwo5xglsaf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -729,7 +855,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/swap-number-without-temp/" data-id="cirg3o6n6000maczvq24s3po4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/swap-number-without-temp/" data-id="cirkeo0k5000p5qzwoj6dhq6y" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -855,7 +981,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/find-point/" data-id="cirg3o6m80001aczv90oow69e" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/find-point/" data-id="cirkeo0j500015qzwxt85n21z" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -981,7 +1107,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/15/merge-two-sorted-arrays/" data-id="cirg3o6mt000baczv2gfrnu3c" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/15/merge-two-sorted-arrays/" data-id="cirkeo0jp000b5qzwvwy2o1rf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1107,7 +1233,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/15/remove-duplicate/" data-id="cirg3o6n0000iaczvm2ccxp5u" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/15/remove-duplicate/" data-id="cirkeo0jt000h5qzwxyjl975i" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1233,7 +1359,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/14/greatest-common-divisor/" data-id="cirg3o6mr0008aczvx27lz11q" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/14/greatest-common-divisor/" data-id="cirkeo0jl00065qzwm9wg2c8h" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1311,132 +1437,6 @@ ga('send', 'pageview');
 
 
 
-    <article id="post-fibonacci-number" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/blog/2016/07/11/fibonacci-number/">Fibonacci Number</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/07/11/fibonacci-number/">
-            <time datetime="2016-07-10T17:36:39.000Z" itemprop="datePublished">2016-07-11</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><h2 id="Write-a-function-to-return-the-nth-Fibonacci-number"><a href="#Write-a-function-to-return-the-nth-Fibonacci-number" class="headerlink" title="Write a function to return the nth Fibonacci number"></a><a href="http://www.thatjsdude.com/interview/js1.html">Write a function to return the nth Fibonacci number</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">fibonacci(<span class="number">0</span>);</div><div class="line"><span class="comment">// 1</span></div><div class="line">fibonacci(<span class="number">1</span>);</div><div class="line"><span class="comment">// 1</span></div><div class="line">fibonacci(<span class="number">2</span>);</div><div class="line"><span class="comment">// 2</span></div><div class="line">fibonacci(<span class="number">3</span>);</div><div class="line"><span class="comment">// 3</span></div><div class="line">fibonacci(<span class="number">4</span>);</div><div class="line"><span class="comment">// 5</span></div><div class="line"><span class="comment">//</span></div><div class="line"><span class="comment">// 1, 1, 2, 3, 5, 8, 13, 21, ···</span></div></pre></td></tr></table></figure></p>
-            <p class="article-more-link">
-                <a href="/blog/2016/07/11/fibonacci-number/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="https://narr.github.io/blog/2016/07/11/fibonacci-number/" data-id="cirg3o6mf0003aczvugi272qc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="https://narr.github.io/blog/2016/07/11/fibonacci-number/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/07/11/fibonacci-number/">Comments</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
     <nav id="page-nav">
         <span class="page-number current">1</span><a class="page-number" href="/blog/page/2/">2</a><a class="extend next" rel="next" href="/blog/page/2/">Next &raquo;</a>
     </nav>
@@ -1449,6 +1449,15 @@ ga('send', 'pageview');
         <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/blog/2016/08/07/quad-combination/" class="title">Quad combination</a></p>
+                            <p class="item-date"><time datetime="2016-08-07T06:21:02.000Z" itemprop="datePublished">2016-08-07</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -1486,15 +1495,6 @@ ga('send', 'pageview');
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/blog/2016/07/31/swap-number-without-temp/" class="title">Swap number without temp</a></p>
-                            <p class="item-date"><time datetime="2016-07-31T06:17:12.000Z" itemprop="datePublished">2016-07-31</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1504,7 +1504,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -1513,7 +1513,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">14</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">15</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
