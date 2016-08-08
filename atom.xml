@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-08-07T09:24:58.000Z</updated>
+  <updated>2016-08-08T13:59:38.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The smallest palindrome</title>
+    <link href="https://narr.github.io/2016/08/08/the-smallest-palindrome/"/>
+    <id>https://narr.github.io/2016/08/08/the-smallest-palindrome/</id>
+    <published>2016-08-08T06:54:04.000Z</published>
+    <updated>2016-08-08T13:59:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Find-the-smallest-palindrome-in-a-given-string"><a href="#Find-the-smallest-palindrome-in-a-given-string" class="headerlink" title="Find the smallest palindrome in a given string"></a>Find the smallest palindrome in a given string</h3><h3 id="A-palindrome-is-a-word-or-a-phrase-that-is-the-same-whether-you-read-it-backwards-or-forwards-for-example-the-word-refer’"><a href="#A-palindrome-is-a-word-or-a-phrase-that-is-the-same-whether-you-read-it-backwards-or-forwards-for-example-the-word-refer’" class="headerlink" title="A palindrome is a word or a phrase that is the same whether you read it backwards or forwards, for example the word `refer’."></a>A palindrome is a word or a phrase that is the same whether you read it backwards or forwards, for example the word `refer’.</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">getSmallestPalindrome(<span class="string">'the nurses run'</span>);</div><div class="line"><span class="comment">// nurses run</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_kXQkvj" src="//codepen.io/narr/embed/kXQkvj?height=1740&theme-id=0&slug-hash=kXQkvj&default-tab=js" scrolling="no" frameborder="no" height="1740" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Find-the-smallest-palindrome-in-a-given-string&quot;&gt;&lt;a href=&quot;#Find-the-smallest-palindrome-in-a-given-string&quot; class=&quot;headerlink&quot; title=&quot;Find the smallest palindrome in a given string&quot;&gt;&lt;/a&gt;Find the smallest palindrome in a given string&lt;/h3&gt;&lt;h3 id=&quot;A-palindrome-is-a-word-or-a-phrase-that-is-the-same-whether-you-read-it-backwards-or-forwards-for-example-the-word-refer’&quot;&gt;&lt;a href=&quot;#A-palindrome-is-a-word-or-a-phrase-that-is-the-same-whether-you-read-it-backwards-or-forwards-for-example-the-word-refer’&quot; class=&quot;headerlink&quot; title=&quot;A palindrome is a word or a phrase that is the same whether you read it backwards or forwards, for example the word `refer’.&quot;&gt;&lt;/a&gt;A palindrome is a word or a phrase that is the same whether you read it backwards or forwards, for example the word `refer’.&lt;/h3&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;getSmallestPalindrome(&lt;span class=&quot;string&quot;&gt;&#39;the nurses run&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// nurses run&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Quad combination</title>
