@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-08-08T13:59:38.000Z</updated>
+  <updated>2016-08-09T15:15:32.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>String compression</title>
+    <link href="https://narr.github.io/2016/08/09/string-compression/"/>
+    <id>https://narr.github.io/2016/08/09/string-compression/</id>
+    <published>2016-08-09T15:00:29.000Z</published>
+    <updated>2016-08-09T15:15:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions"><a href="#Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions" class="headerlink" title="Write a function compress(str), which shortens strings by reducing consecutive character repetitions."></a>Write a function compress(str), which shortens strings by reducing consecutive character repetitions.</h3><h3 id="Note-input-string-will-only-contain-a-z"><a href="#Note-input-string-will-only-contain-a-z" class="headerlink" title="Note: input string will only contain [a-z]+"></a>Note: input string will only contain [a-z]+</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">compress(<span class="string">'aaaabbaaaababbbcccccccccccc'</span>);</div><div class="line"><span class="comment">// a4b2a4b1a1b3c12</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_yJQkQm" src="//codepen.io/narr/embed/yJQkQm?height=1080&theme-id=0&slug-hash=yJQkQm&default-tab=js" scrolling="no" frameborder="no" height="1080" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions&quot;&gt;&lt;a href=&quot;#Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions&quot; class=&quot;headerlink&quot; title=&quot;Write a function compress(str), which shortens strings by reducing consecutive character repetitions.&quot;&gt;&lt;/a&gt;Write a function compress(str), which shortens strings by reducing consecutive character repetitions.&lt;/h3&gt;&lt;h3 id=&quot;Note-input-string-will-only-contain-a-z&quot;&gt;&lt;a href=&quot;#Note-input-string-will-only-contain-a-z&quot; class=&quot;headerlink&quot; title=&quot;Note: input string will only contain [a-z]+&quot;&gt;&lt;/a&gt;Note: input string will only contain [a-z]+&lt;/h3&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;compress(&lt;span class=&quot;string&quot;&gt;&#39;aaaabbaaaababbbcccccccccccc&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// a4b2a4b1a1b3c12&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>The smallest palindrome</title>

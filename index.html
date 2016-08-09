@@ -147,7 +147,7 @@ ga('send', 'pageview');
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                17
+                18
                 <span>posts</span>
             </div>
             <div class="article-info-block">
@@ -177,6 +177,132 @@ ga('send', 'pageview');
 
             
             <section id="main">
+    <article id="post-string-compression" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/2016/08/09/string-compression/">String compression</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/2016/08/09/string-compression/">
+            <time datetime="2016-08-09T15:00:29.000Z" itemprop="datePublished">2016-08-09</time>
+        </a>
+    </div>
+
+
+                    
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><h3 id="Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions"><a href="#Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions" class="headerlink" title="Write a function compress(str), which shortens strings by reducing consecutive character repetitions."></a>Write a function compress(str), which shortens strings by reducing consecutive character repetitions.</h3><h3 id="Note-input-string-will-only-contain-a-z"><a href="#Note-input-string-will-only-contain-a-z" class="headerlink" title="Note: input string will only contain [a-z]+"></a>Note: input string will only contain [a-z]+</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">compress(<span class="string">'aaaabbaaaababbbcccccccccccc'</span>);</div><div class="line"><span class="comment">// a4b2a4b1a1b3c12</span></div></pre></td></tr></table></figure></p>
+            <p class="article-more-link">
+                <a href="/blog/2016/08/09/string-compression/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://narr.github.io/blog/2016/08/09/string-compression/" data-id="cirnm37lw000py9ltxed25ye1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://narr.github.io/blog/2016/08/09/string-compression/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/09/string-compression/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-the-smallest-palindrome" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -225,7 +351,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/08/the-smallest-palindrome/" data-id="cirm41zkm000rrp1sqy7egnyg" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/08/the-smallest-palindrome/" data-id="cirnm37m0000vy9ltm14ys0d0" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -351,7 +477,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirm41zk5000frp1svsxlu1pr" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirnm37lm000hy9ltdoselala" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -477,7 +603,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirm41zki000prp1sabcocw4m" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirnm37lv000ny9ltukyrt8xk" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -603,7 +729,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirm41zjw0004rp1s4lotf1iq" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirnm37lb0004y9ltor739ozd" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -729,7 +855,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="cirm41zk3000drp1smklh8ymw" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="cirnm37lj000dy9lttvf5et1x" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -855,7 +981,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/string-reverse/" data-id="cirm41zkg000nrp1sgbc8h05g" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/string-reverse/" data-id="cirnm37lx000ry9ltjofveraz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -981,7 +1107,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/swap-number-without-temp/" data-id="cirm41zkq000vrp1soyic7075" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/swap-number-without-temp/" data-id="cirnm37ly000ty9lt1l1z0lc6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1107,7 +1233,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/find-point/" data-id="cirm41zjj0001rp1sae14kqoa" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/find-point/" data-id="cirnm37l00001y9ltpt87d8qc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1233,7 +1359,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/15/merge-two-sorted-arrays/" data-id="cirm41zk2000brp1swybm6gq7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/15/merge-two-sorted-arrays/" data-id="cirnm37li000by9ltjwzc1jx6" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1311,132 +1437,6 @@ ga('send', 'pageview');
 
 
 
-    <article id="post-remove-duplicate" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/blog/2016/07/15/remove-duplicate/">Remove Duplicate</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/07/15/remove-duplicate/">
-            <time datetime="2016-07-15T05:02:25.000Z" itemprop="datePublished">2016-07-15</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><h2 id="Write-a-function-to-return-an-array-that-duplicate-primitive-values-are-removed-in"><a href="#Write-a-function-to-return-an-array-that-duplicate-primitive-values-are-removed-in" class="headerlink" title="Write a function to return an array that duplicate primitive values are removed in"></a><a href="http://www.thatjsdude.com/interview/js1.html">Write a function to return an array that duplicate primitive values are removed in</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">removeDuplicate([<span class="number">1</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>, <span class="number">1</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">1</span>]);</div><div class="line"><span class="comment">// [1, 3, 5, 6, 7, 8]</span></div></pre></td></tr></table></figure></p>
-            <p class="article-more-link">
-                <a href="/blog/2016/07/15/remove-duplicate/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="https://narr.github.io/blog/2016/07/15/remove-duplicate/" data-id="cirm41zk8000jrp1s3ge0f4p4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="https://narr.github.io/blog/2016/07/15/remove-duplicate/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/07/15/remove-duplicate/">Comments</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
     <nav id="page-nav">
         <span class="page-number current">1</span><a class="page-number" href="/blog/page/2/">2</a><a class="extend next" rel="next" href="/blog/page/2/">Next &raquo;</a>
     </nav>
@@ -1449,6 +1449,15 @@ ga('send', 'pageview');
         <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/blog/2016/08/09/string-compression/" class="title">String compression</a></p>
+                            <p class="item-date"><time datetime="2016-08-09T15:00:29.000Z" itemprop="datePublished">2016-08-09</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -1486,15 +1495,6 @@ ga('send', 'pageview');
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/blog/2016/08/02/merging-2-packages/" class="title">Merging 2 packages</a></p>
-                            <p class="item-date"><time datetime="2016-08-02T08:40:02.000Z" itemprop="datePublished">2016-08-02</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1504,7 +1504,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">5</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -1513,7 +1513,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">16</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
