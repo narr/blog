@@ -147,7 +147,7 @@ ga('send', 'pageview');
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                19
+                20
                 <span>posts</span>
             </div>
             <div class="article-info-block">
@@ -177,6 +177,132 @@ ga('send', 'pageview');
 
             
             <section id="main">
+    <article id="post-rotated-sorted-array" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/2016/08/10/rotated-sorted-array/">Rotated sorted array</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/2016/08/10/rotated-sorted-array/">
+            <time datetime="2016-08-10T04:57:19.000Z" itemprop="datePublished">2016-08-10</time>
+        </a>
+    </div>
+
+
+                    
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><h3 id="searching-an-element-in-a-rotated-sorted-array-ascending-order-and-return-the-index-of-it-or-1"><a href="#searching-an-element-in-a-rotated-sorted-array-ascending-order-and-return-the-index-of-it-or-1" class="headerlink" title="searching an element in a rotated sorted array(ascending order) and return the index of it or -1"></a>searching an element in a rotated sorted array(ascending order) and return the index of it or -1</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">rotatedSortedArr([<span class="number">3</span>, <span class="number">0</span>, <span class="number">1</span>, <span class="number">2</span>], <span class="number">1</span>);</div><div class="line"><span class="comment">// 2</span></div></pre></td></tr></table></figure></p>
+            <p class="article-more-link">
+                <a href="/blog/2016/08/10/rotated-sorted-array/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://narr.github.io/blog/2016/08/10/rotated-sorted-array/" data-id="ciroh0972000fhxzva7ldx6s4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://narr.github.io/blog/2016/08/10/rotated-sorted-array/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/10/rotated-sorted-array/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-a-task-to-handle-uri" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -227,7 +353,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/09/a-task-to-handle-uri/" data-id="cirnnid1i00007vlt6ln3kk03" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/09/a-task-to-handle-uri/" data-id="ciroh096a0000hxzvsqxzd2g1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -353,7 +479,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/09/string-compression/" data-id="cirnnid2j000p7vlttd5n02be" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/09/string-compression/" data-id="ciroh097g000shxzvg37xw0go" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -479,7 +605,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/08/the-smallest-palindrome/" data-id="cirnnid2p000x7vltdobqozre" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/08/the-smallest-palindrome/" data-id="ciroh097k000zhxzv2mh48ews" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -605,7 +731,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirnnid29000f7vltk8u87qwg" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="ciroh0976000ihxzv1mfra8oo" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -731,7 +857,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirnnid2h000n7vltbje3ckw4" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="ciroh097c000nhxzvwbww3ruf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -857,7 +983,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirnnid2100067vltzmd14fof" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="ciroh096t0006hxzvpvw1h5do" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -983,7 +1109,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="cirnnid25000b7vltykerwwlx" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="ciroh096y000bhxzvy6nz78de" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1109,7 +1235,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/string-reverse/" data-id="cirnnid2l000s7vlt86whq0sf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/string-reverse/" data-id="ciroh097i000uhxzvi7lul94x" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1235,7 +1361,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/07/31/swap-number-without-temp/" data-id="cirnnid2m000u7vltg87esmbc" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/07/31/swap-number-without-temp/" data-id="ciroh097j000xhxzvmvxk1ksb" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1313,132 +1439,6 @@ ga('send', 'pageview');
 
 
 
-    <article id="post-find-point" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/blog/2016/07/31/find-point/">Find point</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/07/31/find-point/">
-            <time datetime="2016-07-31T02:53:53.000Z" itemprop="datePublished">2016-07-31</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><h2 id="Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q"><a href="#Given-two-points-P-and-Q-output-the-symmetric-point-of-point-P-about-Q" class="headerlink" title="Given two points P and Q, output the symmetric point of point P about Q"></a><a href="https://www.hackerrank.com/challenges/find-point">Given two points P and Q, output the symmetric point of point P about Q</a></h2><img src="/blog/2016/07/31/find-point/find-point.png" alt="Find point" title="Find point"></p>
-            <p class="article-more-link">
-                <a href="/blog/2016/07/31/find-point/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="https://narr.github.io/blog/2016/07/31/find-point/" data-id="cirnnid1s00037vlt5r73wlm1" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="https://narr.github.io/blog/2016/07/31/find-point/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/07/31/find-point/">Comments</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
     <nav id="page-nav">
         <span class="page-number current">1</span><a class="page-number" href="/blog/page/2/">2</a><a class="extend next" rel="next" href="/blog/page/2/">Next &raquo;</a>
     </nav>
@@ -1451,6 +1451,15 @@ ga('send', 'pageview');
         <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/blog/2016/08/10/rotated-sorted-array/" class="title">Rotated sorted array</a></p>
+                            <p class="item-date"><time datetime="2016-08-10T04:57:19.000Z" itemprop="datePublished">2016-08-10</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -1488,15 +1497,6 @@ ga('send', 'pageview');
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/blog/2016/08/04/smallest-substring-of-all-characters/" class="title">Smallest substring of all characters</a></p>
-                            <p class="item-date"><time datetime="2016-08-04T03:45:37.000Z" itemprop="datePublished">2016-08-04</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1506,7 +1506,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">7</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">8</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -1515,7 +1515,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URI/">URI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URL/">URL</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">17</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/task/">task</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URI/">URI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URL/">URL</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">18</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/task/">task</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
