@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-08-10T05:42:40.000Z</updated>
+  <updated>2016-08-12T12:47:54.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Word count engine</title>
+    <link href="https://narr.github.io/2016/08/12/word-count-engine/"/>
+    <id>https://narr.github.io/2016/08/12/word-count-engine/</id>
+    <published>2016-08-12T10:47:43.000Z</published>
+    <updated>2016-08-12T12:47:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Implement-a-document-scanning-engine-that-receives-a-text-document-doc-and-returns-a-list-of-all-unique-words-in-it-and-their-number-of-occurrences-sorted-by-the-number-of-occurrences-in-descending-order"><a href="#Implement-a-document-scanning-engine-that-receives-a-text-document-doc-and-returns-a-list-of-all-unique-words-in-it-and-their-number-of-occurrences-sorted-by-the-number-of-occurrences-in-descending-order" class="headerlink" title="Implement a document scanning engine that receives a text document doc and returns a list of all unique words in it and their number of occurrences, sorted by the number of occurrences in descending order."></a>Implement a document scanning engine that receives a text document doc and returns a list of all unique words in it and their number of occurrences, sorted by the number of occurrences in descending order.</h3><h3 id="The-engine-should-ignore-punctuation-and-white-spaces"><a href="#The-engine-should-ignore-punctuation-and-white-spaces" class="headerlink" title="The engine should ignore punctuation and white-spaces."></a>The engine should ignore punctuation and white-spaces.</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">wordCountEngine(<span class="string">'practice makes perfect. get perfect by practice. just practice!'</span>);</div><div class="line"><span class="comment">// [[practice, 3], [perfect, 2], [make, 1], [get, 1], [by, 1], [just, 1]]</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_jAdNNa" src="//codepen.io/narr/embed/jAdNNa?height=1110&theme-id=0&slug-hash=jAdNNa&default-tab=js" scrolling="no" frameborder="no" height="1110" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Implement-a-document-scanning-engine-that-receives-a-text-document-doc-and-returns-a-list-of-all-unique-words-in-it-and-their-number-of-occurrences-sorted-by-the-number-of-occurrences-in-descending-order&quot;&gt;&lt;a href=&quot;#Implement-a-document-scanning-engine-that-receives-a-text-document-doc-and-returns-a-list-of-all-unique-words-in-it-and-their-number-of-occurrences-sorted-by-the-number-of-occurrences-in-descending-order&quot; class=&quot;headerlink&quot; title=&quot;Implement a document scanning engine that receives a text document doc and returns a list of all unique words in it and their number of occurrences, sorted by the number of occurrences in descending order.&quot;&gt;&lt;/a&gt;Implement a document scanning engine that receives a text document doc and returns a list of all unique words in it and their number of occurrences, sorted by the number of occurrences in descending order.&lt;/h3&gt;&lt;h3 id=&quot;The-engine-should-ignore-punctuation-and-white-spaces&quot;&gt;&lt;a href=&quot;#The-engine-should-ignore-punctuation-and-white-spaces&quot; class=&quot;headerlink&quot; title=&quot;The engine should ignore punctuation and white-spaces.&quot;&gt;&lt;/a&gt;The engine should ignore punctuation and white-spaces.&lt;/h3&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;wordCountEngine(&lt;span class=&quot;string&quot;&gt;&#39;practice makes perfect. get perfect by practice. just practice!&#39;&lt;/span&gt;);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// [[practice, 3], [perfect, 2], [make, 1], [get, 1], [by, 1], [just, 1]]&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Rotated sorted array</title>
@@ -456,39 +479,6 @@
     
     
       <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The First Post</title>
-    <link href="https://narr.github.io/2016/05/15/first-post/"/>
-    <id>https://narr.github.io/2016/05/15/first-post/</id>
-    <published>2016-05-15T01:25:05.000Z</published>
-    <updated>2016-05-15T04:38:36.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="My-very-first-post"><a href="#My-very-first-post" class="headerlink" title="My very first post"></a>My very first post</h2><img src="/blog/2016/05/15/first-post/sky.png" alt="First" title="First">
-<a id="more"></a>
-<p><br></p>
-<h2 id="The-repository-for-this-blog"><a href="#The-repository-for-this-blog" class="headerlink" title="The repository for this blog"></a><a href="https://github.com/narr/blog" target="_blank" rel="external">The repository for this blog</a></h2><p><br></p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Clone"><a href="#Clone" class="headerlink" title="Clone"></a>Clone</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ git <span class="built_in">clone</span> https://github.com/narr/blog.git</div></pre></td></tr></table></figure>
-<h3 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
-<h3 id="Run-development-server"><a href="#Run-development-server" class="headerlink" title="Run development server"></a>Run development server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm run server</div></pre></td></tr></table></figure>
-<p>Open a browser on localhost:8080</p>
-<h3 id="Deploy-to-Github"><a href="#Deploy-to-Github" class="headerlink" title="Deploy to Github"></a>Deploy to <a href="https://github.com/narr/blog/tree/gh-pages" target="_blank" rel="external">Github</a></h3><figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ npm run deploy</div></pre></td></tr></table></figure>
-<h2 id="Ref"><a href="#Ref" class="headerlink" title="Ref."></a>Ref.</h2><ul>
-<li><a href="https://hexo.io/docs/" target="_blank" rel="external">hexo</a></li>
-<li><a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external">hexo-theme-icarus</a></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;My-very-first-post&quot;&gt;&lt;a href=&quot;#My-very-first-post&quot; class=&quot;headerlink&quot; title=&quot;My very first post&quot;&gt;&lt;/a&gt;My very first post&lt;/h2&gt;&lt;img src=&quot;/blog/2016/05/15/first-post/sky.png&quot; alt=&quot;First&quot; title=&quot;First&quot;&gt;
-    
-    </summary>
-    
-    
-      <category term="first" scheme="https://narr.github.io/tags/first/"/>
     
   </entry>
   
