@@ -3,18 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>String compression | Narr&#39;s Blog</title>
+    <title>Array of array products | Narr&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta name="description" content="Write a function compress(str), which shortens strings by reducing consecutive character repetitions.Note: input string will only contain [a-z]+example:compress(&apos;aaaabbaaaababbbcccccccccccc&apos;);// a4b2a">
+    <meta name="description" content="Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.Solve without using">
 <meta property="og:type" content="article">
-<meta property="og:title" content="String compression">
-<meta property="og:url" content="https://narr.github.io/2016/08/09/string-compression/index.html">
+<meta property="og:title" content="Array of array products">
+<meta property="og:url" content="https://narr.github.io/2016/08/15/array-of-array-products/index.html">
 <meta property="og:site_name" content="Narr's Blog">
-<meta property="og:description" content="Write a function compress(str), which shortens strings by reducing consecutive character repetitions.Note: input string will only contain [a-z]+example:compress(&apos;aaaabbaaaababbbcccccccccccc&apos;);// a4b2a">
-<meta property="og:updated_time" content="2016-08-09T15:15:32.000Z">
+<meta property="og:description" content="Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.Solve without using">
+<meta property="og:updated_time" content="2016-08-15T07:55:31.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="String compression">
-<meta name="twitter:description" content="Write a function compress(str), which shortens strings by reducing consecutive character repetitions.Note: input string will only contain [a-z]+example:compress(&apos;aaaabbaaaababbbcccccccccccc&apos;);// a4b2a">
+<meta name="twitter:title" content="Array of array products">
+<meta name="twitter:description" content="Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.Solve without using">
     
 
     
@@ -180,7 +180,7 @@ ga('send', 'pageview');
 </aside>
 
             
-            <section id="main"><article id="post-string-compression" class="article article-type-post" itemscope itemprop="blogPost">
+            <section id="main"><article id="post-array-of-array-products" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
         
@@ -189,7 +189,7 @@ ga('send', 'pageview');
                 
     
         <h1 class="article-title" itemprop="name">
-            String compression
+            Array of array products
         </h1>
     
 
@@ -197,8 +197,8 @@ ga('send', 'pageview');
                     
     <div class="article-date">
         <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/09/string-compression/">
-            <time datetime="2016-08-09T15:00:29.000Z" itemprop="datePublished">2016-08-09</time>
+        <a href="/blog/2016/08/15/array-of-array-products/">
+            <time datetime="2016-08-15T07:45:32.000Z" itemprop="datePublished">2016-08-15</time>
         </a>
     </div>
 
@@ -216,9 +216,9 @@ ga('send', 'pageview');
         <div class="article-entry" itemprop="articleBody">
         
             
-            <h3 id="Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions"><a href="#Write-a-function-compress-str-which-shortens-strings-by-reducing-consecutive-character-repetitions" class="headerlink" title="Write a function compress(str), which shortens strings by reducing consecutive character repetitions."></a>Write a function compress(str), which shortens strings by reducing consecutive character repetitions.</h3><h3 id="Note-input-string-will-only-contain-a-z"><a href="#Note-input-string-will-only-contain-a-z" class="headerlink" title="Note: input string will only contain [a-z]+"></a>Note: input string will only contain [a-z]+</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">compress(<span class="string">'aaaabbaaaababbbcccccccccccc'</span>);</div><div class="line"><span class="comment">// a4b2a4b1a1b3c12</span></div></pre></td></tr></table></figure>
+            <h3 id="Given-an-array-of-integers-‘arr’-write-a-function-that-returns-another-array-at-the-same-length-where-the-value-at-each-index-i-is-the-product-of-all-array-values-except-‘arr-i-’"><a href="#Given-an-array-of-integers-‘arr’-write-a-function-that-returns-another-array-at-the-same-length-where-the-value-at-each-index-i-is-the-product-of-all-array-values-except-‘arr-i-’" class="headerlink" title="Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’."></a>Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.</h3><h3 id="Solve-without-using-division-and-analyze-the-runtime-and-space-complexity"><a href="#Solve-without-using-division-and-analyze-the-runtime-and-space-complexity" class="headerlink" title="Solve without using division and analyze the runtime and space complexity"></a>Solve without using division and analyze the runtime and space complexity</h3><h4 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">arrayOfArrayProducts([<span class="number">2</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">4</span>]);</div><div class="line"><span class="comment">// [7*3*4, 2*3*4, 2*7*4, 2*7*3]</span></div></pre></td></tr></table></figure>
 <a id="more"></a>
-<p><br><iframe id="cp_embed_yJQkQm" src="//codepen.io/narr/embed/yJQkQm?height=1080&theme-id=0&slug-hash=yJQkQm&default-tab=js" scrolling="no" frameborder="no" height="1080" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+<p><br><iframe id="cp_embed_vKbzRr" src="//codepen.io/narr/embed/vKbzRr?height=780&theme-id=0&slug-hash=vKbzRr&default-tab=js" scrolling="no" frameborder="no" height="780" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
 
         
         </div>
@@ -229,7 +229,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/09/string-compression/" data-id="cirvvplar000u1pzvxk91w4f9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/15/array-of-array-products/" data-id="cirvvpl9q00031pzvlbdeyj7f" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -297,7 +297,7 @@ ga('send', 'pageview');
 
             
     
-        <a href="https://narr.github.io/blog/2016/08/09/string-compression/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/09/string-compression/">Comments</a>
+        <a href="https://narr.github.io/blog/2016/08/15/array-of-array-products/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/15/array-of-array-products/">Comments</a>
     
 
         </footer>
@@ -306,19 +306,10 @@ ga('send', 'pageview');
         
 <nav id="article-nav">
     
-        <a href="/blog/2016/08/09/a-task-to-handle-uri/" id="article-nav-newer" class="article-nav-link-wrap">
-            <strong class="article-nav-caption">Newer</strong>
-            <div class="article-nav-title">
-                
-                    A task to handle URI
-                
-            </div>
-        </a>
     
-    
-        <a href="/blog/2016/08/08/the-smallest-palindrome/" id="article-nav-older" class="article-nav-link-wrap">
+        <a href="/blog/2016/08/12/word-count-engine/" id="article-nav-older" class="article-nav-link-wrap">
             <strong class="article-nav-caption">Older</strong>
-            <div class="article-nav-title">The smallest palindrome</div>
+            <div class="article-nav-title">Word count engine</div>
         </a>
     
 </nav>
@@ -435,7 +426,7 @@ ga('send', 'pageview');
     var disqus_shortname = 'narr';
     
     
-    var disqus_url = 'https://narr.github.io/blog/2016/08/09/string-compression/';
+    var disqus_url = 'https://narr.github.io/blog/2016/08/15/array-of-array-products/';
     
     (function() {
     var dsq = document.createElement('script');

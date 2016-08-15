@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-08-12T12:47:54.000Z</updated>
+  <updated>2016-08-15T07:55:31.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Array of array products</title>
+    <link href="https://narr.github.io/2016/08/15/array-of-array-products/"/>
+    <id>https://narr.github.io/2016/08/15/array-of-array-products/</id>
+    <published>2016-08-15T07:45:32.000Z</published>
+    <updated>2016-08-15T07:55:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Given-an-array-of-integers-‘arr’-write-a-function-that-returns-another-array-at-the-same-length-where-the-value-at-each-index-i-is-the-product-of-all-array-values-except-‘arr-i-’"><a href="#Given-an-array-of-integers-‘arr’-write-a-function-that-returns-another-array-at-the-same-length-where-the-value-at-each-index-i-is-the-product-of-all-array-values-except-‘arr-i-’" class="headerlink" title="Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’."></a>Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.</h3><h3 id="Solve-without-using-division-and-analyze-the-runtime-and-space-complexity"><a href="#Solve-without-using-division-and-analyze-the-runtime-and-space-complexity" class="headerlink" title="Solve without using division and analyze the runtime and space complexity"></a>Solve without using division and analyze the runtime and space complexity</h3><h4 id="Example"><a href="#Example" class="headerlink" title="Example:"></a>Example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">arrayOfArrayProducts([<span class="number">2</span>, <span class="number">7</span>, <span class="number">3</span>, <span class="number">4</span>]);</div><div class="line"><span class="comment">// [7*3*4, 2*3*4, 2*7*4, 2*7*3]</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_vKbzRr" src="//codepen.io/narr/embed/vKbzRr?height=780&theme-id=0&slug-hash=vKbzRr&default-tab=js" scrolling="no" frameborder="no" height="780" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Given-an-array-of-integers-‘arr’-write-a-function-that-returns-another-array-at-the-same-length-where-the-value-at-each-index-i-is-the-product-of-all-array-values-except-‘arr-i-’&quot;&gt;&lt;a href=&quot;#Given-an-array-of-integers-‘arr’-write-a-function-that-returns-another-array-at-the-same-length-where-the-value-at-each-index-i-is-the-product-of-all-array-values-except-‘arr-i-’&quot; class=&quot;headerlink&quot; title=&quot;Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.&quot;&gt;&lt;/a&gt;Given an array of integers ‘arr’, write a function that returns another array at the same length where the value at each index i is the product of all array values except ‘arr[i]’.&lt;/h3&gt;&lt;h3 id=&quot;Solve-without-using-division-and-analyze-the-runtime-and-space-complexity&quot;&gt;&lt;a href=&quot;#Solve-without-using-division-and-analyze-the-runtime-and-space-complexity&quot; class=&quot;headerlink&quot; title=&quot;Solve without using division and analyze the runtime and space complexity&quot;&gt;&lt;/a&gt;Solve without using division and analyze the runtime and space complexity&lt;/h3&gt;&lt;h4 id=&quot;Example&quot;&gt;&lt;a href=&quot;#Example&quot; class=&quot;headerlink&quot; title=&quot;Example:&quot;&gt;&lt;/a&gt;Example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;arrayOfArrayProducts([&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;]);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// [7*3*4, 2*3*4, 2*7*4, 2*7*3]&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Word count engine</title>
@@ -451,29 +474,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length&quot;&gt;&lt;a href=&quot;#We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length&quot; class=&quot;headerlink&quot; title=&quot;We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.careercup.com/question?id=5756151524229120&quot;&gt;We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; A = [C, D, E, F, G];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; B = [&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;sort(A, B);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// A is now [D, F, G, C, E];&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Pascal&#39;s triangle</title>
-    <link href="https://narr.github.io/2016/07/07/triangle-of-pascal/"/>
-    <id>https://narr.github.io/2016/07/07/triangle-of-pascal/</id>
-    <published>2016-07-07T14:08:13.000Z</published>
-    <updated>2016-07-08T14:59:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle"><a href="#Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle" class="headerlink" title="Write a function to return the nth row in Pascal’s triangle"></a>Write a function to return the nth row in <a href="https://en.wikipedia.org/wiki/Pascal%27s_triangle" target="_blank" rel="external">Pascal’s triangle</a></h2><p><span style="font-size: 16px; line-height: 2;">For example,<br>getRow(1) returns 1<br>getRow(2) returns 1 1<br>getRow(3) returns 1 2 1<br>getRow(4) returns 1 3 3 1</span></p>
-<a id="more"></a>
-<iframe id="cp_embed_QErOvG" src="//codepen.io/narr/embed/QErOvG?height=1240&theme-id=0&slug-hash=QErOvG&default-tab=js" scrolling="no" frameborder="no" height="1240" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-the-nth-row-in-Pascal’s-triangle&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return the nth row in Pascal’s triangle&quot;&gt;&lt;/a&gt;Write a function to return the nth row in &lt;a href=&quot;https://en.wikipedia.org/wiki/Pascal%27s_triangle&quot;&gt;Pascal’s triangle&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px; line-height: 2;&quot;&gt;For example,&lt;br&gt;getRow(1) returns 1&lt;br&gt;getRow(2) returns 1 1&lt;br&gt;getRow(3) returns 1 2 1&lt;br&gt;getRow(4) returns 1 3 3 1&lt;/span&gt;&lt;/p&gt;
     
     </summary>
     
