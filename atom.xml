@@ -5,7 +5,7 @@
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://narr.github.io/"/>
-  <updated>2016-08-15T10:14:53.000Z</updated>
+  <updated>2016-08-15T23:54:57.000Z</updated>
   <id>https://narr.github.io/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Matrix piral print</title>
+    <link href="https://narr.github.io/2016/08/16/matrix-spiral-print/"/>
+    <id>https://narr.github.io/2016/08/16/matrix-spiral-print/</id>
+    <published>2016-08-15T23:31:42.000Z</published>
+    <updated>2016-08-15T23:54:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Given-a-2D-array-matrix-named-M-print-all-items-of-M-in-a-spiral-order-clockwise"><a href="#Given-a-2D-array-matrix-named-M-print-all-items-of-M-in-a-spiral-order-clockwise" class="headerlink" title="Given a 2D array (matrix) named M, print all items of M in a spiral order, clockwise."></a>Given a 2D array (matrix) named M, print all items of M in a spiral order, clockwise.</h3><h3 id="For-example"><a href="#For-example" class="headerlink" title="For example: ["></a>For example: [</h3><h3 id="1-2-3-4-5"><a href="#1-2-3-4-5" class="headerlink" title="[1, 2, 3, 4, 5],"></a>[1, 2, 3, 4, 5],</h3><h3 id="6-7-8-9-10"><a href="#6-7-8-9-10" class="headerlink" title="[6, 7, 8, 9, 10],"></a>[6, 7, 8, 9, 10],</h3><h3 id="11-12-13-14-15"><a href="#11-12-13-14-15" class="headerlink" title="[11, 12, 13, 14, 15],"></a>[11, 12, 13, 14, 15],</h3><h3 id="16-17-18-19-20"><a href="#16-17-18-19-20" class="headerlink" title="[16, 17, 18, 19, 20]"></a>[16, 17, 18, 19, 20]</h3><h3 id=""><a href="#" class="headerlink" title="]"></a>]</h3><h3 id="1-2-3-4-5-1"><a href="#1-2-3-4-5-1" class="headerlink" title="1   2   3   4   5"></a>1   2   3   4   5</h3><h3 id="6-7-8-9-10-1"><a href="#6-7-8-9-10-1" class="headerlink" title="6   7   8   9  10"></a>6   7   8   9  10</h3><h3 id="11-12-13-14-15-1"><a href="#11-12-13-14-15-1" class="headerlink" title="11  12  13  14  15"></a>11  12  13  14  15</h3><h3 id="16-17-18-19-20-1"><a href="#16-17-18-19-20-1" class="headerlink" title="16  17  18  19  20"></a>16  17  18  19  20</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> arr = [</div><div class="line">  [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>],</div><div class="line">  [<span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>],</div><div class="line">  [<span class="number">11</span>, <span class="number">12</span>, <span class="number">13</span>, <span class="number">14</span>, <span class="number">15</span>],</div><div class="line">  [<span class="number">16</span>, <span class="number">17</span>, <span class="number">18</span>, <span class="number">19</span>, <span class="number">20</span>]</div><div class="line">];</div><div class="line">matrixSpiralPrint(arr);</div><div class="line"><span class="comment">// 1 2 3 4 5 10 15 20 19 18 17 16 11 6 7 8 9 14 13 12</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_dXaxkg" src="//codepen.io/narr/embed/dXaxkg?height=1540&theme-id=0&slug-hash=dXaxkg&default-tab=js" scrolling="no" frameborder="no" height="1540" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;Given-a-2D-array-matrix-named-M-print-all-items-of-M-in-a-spiral-order-clockwise&quot;&gt;&lt;a href=&quot;#Given-a-2D-array-matrix-named-M-print-all-items-of-M-in-a-spiral-order-clockwise&quot; class=&quot;headerlink&quot; title=&quot;Given a 2D array (matrix) named M, print all items of M in a spiral order, clockwise.&quot;&gt;&lt;/a&gt;Given a 2D array (matrix) named M, print all items of M in a spiral order, clockwise.&lt;/h3&gt;&lt;h3 id=&quot;For-example&quot;&gt;&lt;a href=&quot;#For-example&quot; class=&quot;headerlink&quot; title=&quot;For example: [&quot;&gt;&lt;/a&gt;For example: [&lt;/h3&gt;&lt;h3 id=&quot;1-2-3-4-5&quot;&gt;&lt;a href=&quot;#1-2-3-4-5&quot; class=&quot;headerlink&quot; title=&quot;[1, 2, 3, 4, 5],&quot;&gt;&lt;/a&gt;[1, 2, 3, 4, 5],&lt;/h3&gt;&lt;h3 id=&quot;6-7-8-9-10&quot;&gt;&lt;a href=&quot;#6-7-8-9-10&quot; class=&quot;headerlink&quot; title=&quot;[6, 7, 8, 9, 10],&quot;&gt;&lt;/a&gt;[6, 7, 8, 9, 10],&lt;/h3&gt;&lt;h3 id=&quot;11-12-13-14-15&quot;&gt;&lt;a href=&quot;#11-12-13-14-15&quot; class=&quot;headerlink&quot; title=&quot;[11, 12, 13, 14, 15],&quot;&gt;&lt;/a&gt;[11, 12, 13, 14, 15],&lt;/h3&gt;&lt;h3 id=&quot;16-17-18-19-20&quot;&gt;&lt;a href=&quot;#16-17-18-19-20&quot; class=&quot;headerlink&quot; title=&quot;[16, 17, 18, 19, 20]&quot;&gt;&lt;/a&gt;[16, 17, 18, 19, 20]&lt;/h3&gt;&lt;h3 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;]&quot;&gt;&lt;/a&gt;]&lt;/h3&gt;&lt;h3 id=&quot;1-2-3-4-5-1&quot;&gt;&lt;a href=&quot;#1-2-3-4-5-1&quot; class=&quot;headerlink&quot; title=&quot;1   2   3   4   5&quot;&gt;&lt;/a&gt;1   2   3   4   5&lt;/h3&gt;&lt;h3 id=&quot;6-7-8-9-10-1&quot;&gt;&lt;a href=&quot;#6-7-8-9-10-1&quot; class=&quot;headerlink&quot; title=&quot;6   7   8   9  10&quot;&gt;&lt;/a&gt;6   7   8   9  10&lt;/h3&gt;&lt;h3 id=&quot;11-12-13-14-15-1&quot;&gt;&lt;a href=&quot;#11-12-13-14-15-1&quot; class=&quot;headerlink&quot; title=&quot;11  12  13  14  15&quot;&gt;&lt;/a&gt;11  12  13  14  15&lt;/h3&gt;&lt;h3 id=&quot;16-17-18-19-20-1&quot;&gt;&lt;a href=&quot;#16-17-18-19-20-1&quot; class=&quot;headerlink&quot; title=&quot;16  17  18  19  20&quot;&gt;&lt;/a&gt;16  17  18  19  20&lt;/h3&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; arr = [&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  [&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;],&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  [&lt;span class=&quot;number&quot;&gt;6&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;7&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;9&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;],&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  [&lt;span class=&quot;number&quot;&gt;11&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;12&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;13&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;14&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;15&lt;/span&gt;],&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;  [&lt;span class=&quot;number&quot;&gt;16&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;17&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;18&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;19&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;20&lt;/span&gt;]&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;matrixSpiralPrint(arr);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 1 2 3 4 5 10 15 20 19 18 17 16 11 6 7 8 9 14 13 12&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
+    
+  </entry>
   
   <entry>
     <title>Array of array products</title>
@@ -451,29 +474,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot;&gt;&lt;a href=&quot;#Write-a-function-to-return-boolean-for-checking-if-it-is-a-prime-number&quot; class=&quot;headerlink&quot; title=&quot;Write a function to return boolean for checking if it is a prime number.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://www.thatjsdude.com/interview/js1.html&quot;&gt;Write a function to return boolean for checking if it is a prime number.&lt;/a&gt;&lt;/h2&gt;
-    
-    </summary>
-    
-    
-      <category term="algorithm" scheme="https://narr.github.io/tags/algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Reorder an array with given indexes</title>
-    <link href="https://narr.github.io/2016/07/09/reorder-an-array-with-given-indexes/"/>
-    <id>https://narr.github.io/2016/07/09/reorder-an-array-with-given-indexes/</id>
-    <published>2016-07-09T10:07:03.000Z</published>
-    <updated>2016-07-09T18:40:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length"><a href="#We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length" class="headerlink" title="We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length."></a><a href="https://www.careercup.com/question?id=5756151524229120" target="_blank" rel="external">We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.</a></h2><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">var</span> A = [C, D, E, F, G];</div><div class="line"><span class="keyword">var</span> B = [<span class="number">3</span>, <span class="number">0</span>, <span class="number">4</span>, <span class="number">1</span>, <span class="number">2</span>];</div><div class="line">sort(A, B);</div><div class="line"><span class="comment">// A is now [D, F, G, C, E];</span></div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p><br><iframe id="cp_embed_jAGyXm" src="//codepen.io/narr/embed/jAGyXm?height=1700&theme-id=0&slug-hash=jAGyXm&default-tab=js" scrolling="no" frameborder="no" height="1700" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length&quot;&gt;&lt;a href=&quot;#We-have-an-array-of-objects-A-and-an-array-of-indexes-B-Reorder-objects-in-array-A-with-given-indexes-in-array-B-Do-not-change-array-A’s-length&quot; class=&quot;headerlink&quot; title=&quot;We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://www.careercup.com/question?id=5756151524229120&quot;&gt;We have an array of objects A and an array of indexes B. Reorder objects in array A with given indexes in array B. Do not change array A’s length.&lt;/a&gt;&lt;/h2&gt;&lt;h4 id=&quot;example&quot;&gt;&lt;a href=&quot;#example&quot; class=&quot;headerlink&quot; title=&quot;example:&quot;&gt;&lt;/a&gt;example:&lt;/h4&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; A = [C, D, E, F, G];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; B = [&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;];&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;sort(A, B);&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// A is now [D, F, G, C, E];&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     

@@ -147,7 +147,7 @@ ga('send', 'pageview');
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                22
+                23
                 <span>posts</span>
             </div>
             <div class="article-info-block">
@@ -177,6 +177,132 @@ ga('send', 'pageview');
 
             
             <section id="main">
+    <article id="post-matrix-spiral-print" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/blog/2016/08/16/matrix-spiral-print/">Matrix piral print</a>
+        </h1>
+    
+
+                <div class="article-meta">
+                    
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/blog/2016/08/16/matrix-spiral-print/">
+            <time datetime="2016-08-15T23:31:42.000Z" itemprop="datePublished">2016-08-16</time>
+        </a>
+    </div>
+
+
+                    
+                    
+    <div class="article-tag">
+        <i class="fa fa-tag"></i>
+        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
+    </div>
+
+                </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            <p><h3 id="Given-a-2D-array-matrix-named-M-print-all-items-of-M-in-a-spiral-order-clockwise"><a href="#Given-a-2D-array-matrix-named-M-print-all-items-of-M-in-a-spiral-order-clockwise" class="headerlink" title="Given a 2D array (matrix) named M, print all items of M in a spiral order, clockwise."></a>Given a 2D array (matrix) named M, print all items of M in a spiral order, clockwise.</h3><h3 id="For-example"><a href="#For-example" class="headerlink" title="For example: ["></a>For example: [</h3><h3 id="1-2-3-4-5"><a href="#1-2-3-4-5" class="headerlink" title="[1, 2, 3, 4, 5],"></a>[1, 2, 3, 4, 5],</h3><h3 id="6-7-8-9-10"><a href="#6-7-8-9-10" class="headerlink" title="[6, 7, 8, 9, 10],"></a>[6, 7, 8, 9, 10],</h3><h3 id="11-12-13-14-15"><a href="#11-12-13-14-15" class="headerlink" title="[11, 12, 13, 14, 15],"></a>[11, 12, 13, 14, 15],</h3><h3 id="16-17-18-19-20"><a href="#16-17-18-19-20" class="headerlink" title="[16, 17, 18, 19, 20]"></a>[16, 17, 18, 19, 20]</h3><h3 id=""><a href="#" class="headerlink" title="]"></a>]</h3><h3 id="1-2-3-4-5-1"><a href="#1-2-3-4-5-1" class="headerlink" title="1   2   3   4   5"></a>1   2   3   4   5</h3><h3 id="6-7-8-9-10-1"><a href="#6-7-8-9-10-1" class="headerlink" title="6   7   8   9  10"></a>6   7   8   9  10</h3><h3 id="11-12-13-14-15-1"><a href="#11-12-13-14-15-1" class="headerlink" title="11  12  13  14  15"></a>11  12  13  14  15</h3><h3 id="16-17-18-19-20-1"><a href="#16-17-18-19-20-1" class="headerlink" title="16  17  18  19  20"></a>16  17  18  19  20</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line"><span class="keyword">const</span> arr = [</div><div class="line">  [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>],</div><div class="line">  [<span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>],</div><div class="line">  [<span class="number">11</span>, <span class="number">12</span>, <span class="number">13</span>, <span class="number">14</span>, <span class="number">15</span>],</div><div class="line">  [<span class="number">16</span>, <span class="number">17</span>, <span class="number">18</span>, <span class="number">19</span>, <span class="number">20</span>]</div><div class="line">];</div><div class="line">matrixSpiralPrint(arr);</div><div class="line"><span class="comment">// 1 2 3 4 5 10 15 20 19 18 17 16 11 6 7 8 9 14 13 12</span></div></pre></td></tr></table></figure></p>
+            <p class="article-more-link">
+                <a href="/blog/2016/08/16/matrix-spiral-print/#more">Read More</a>
+            </p>
+        
+        </div>
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="https://narr.github.io/blog/2016/08/16/matrix-spiral-print/" data-id="cirwp7vqp0007c4ltjv7poten" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://narr.github.io/blog/2016/08/16/matrix-spiral-print/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/16/matrix-spiral-print/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
     <article id="post-array-of-array-products" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -225,7 +351,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/15/array-of-array-products/" data-id="cirvvy0vz0000b9zvbru2ljw9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/15/array-of-array-products/" data-id="cirwp7vq60001c4ltmo0jjgfr" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -351,7 +477,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/12/word-count-engine/" data-id="cirvvy0xf0018b9zvo1vqe4g7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/12/word-count-engine/" data-id="cirwp7vrm0014c4ltp08p1gi8" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -477,7 +603,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/10/rotated-sorted-array/" data-id="cirvvy0x6000yb9zvyqxa5jdz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/10/rotated-sorted-array/" data-id="cirwp7vra000nc4ltpor39neu" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -605,7 +731,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/09/a-task-to-handle-uri/" data-id="cirvvy0wc0004b9zvw8uy4iy7" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/09/a-task-to-handle-uri/" data-id="cirwp7vpy0000c4lt6j1y54zf" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -731,7 +857,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/09/string-compression/" data-id="cirvvy0x2000tb9zveai9pvaz" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/09/string-compression/" data-id="cirwp7vrd000sc4lt415a376d" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -857,7 +983,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/08/the-smallest-palindrome/" data-id="cirvvy0xd0014b9zvgdt57n2i" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/08/the-smallest-palindrome/" data-id="cirwp7vrp0019c4ltrxq4q78y" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -983,7 +1109,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirvvy0x1000rb9zvkmr0wa4k" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/07/quad-combination/" data-id="cirwp7vr2000ic4ltxug8wu0l" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1109,7 +1235,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirvvy0x4000wb9zvye95xyxy" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/04/smallest-substring-of-all-characters/" data-id="cirwp7vrb000pc4ltiqm6m7vj" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1235,7 +1361,7 @@ ga('send', 'pageview');
 
 </div>
 
-    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirvvy0wj0008b9zvpv954w47" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="https://narr.github.io/blog/2016/08/03/flatten-nested-arrays-of-integers/" data-id="cirwp7vqo0006c4lt5tvawjcv" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1313,132 +1439,6 @@ ga('send', 'pageview');
 
 
 
-    <article id="post-merging-2-packages" class="article article-type-post" itemscope itemprop="blogPost">
-    <div class="article-inner">
-        
-        
-        
-            <header class="article-header">
-                
-    
-        <h1 itemprop="name">
-            <a class="article-title" href="/blog/2016/08/02/merging-2-packages/">Merging 2 packages</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/02/merging-2-packages/">
-            <time datetime="2016-08-02T08:40:02.000Z" itemprop="datePublished">2016-08-02</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </header>
-        
-        <div class="article-entry" itemprop="articleBody">
-        
-            <p><h3 id="Given-a-package-with-a-weight-limit-and-an-array-of-item-weights-how-can-you-most-efficiently-find-two-items-with-sum-of-weights-that-equals-the-weight-limit"><a href="#Given-a-package-with-a-weight-limit-and-an-array-of-item-weights-how-can-you-most-efficiently-find-two-items-with-sum-of-weights-that-equals-the-weight-limit" class="headerlink" title="Given a package with a weight limit and an array of item weights, how can you most efficiently find two items with sum of weights that equals the weight limit?"></a>Given a package with a weight limit and an array of item weights, how can you most efficiently find two items with sum of weights that equals the weight limit?</h3><h3 id="Your-function-should-return-2-such-indices-of-item-weights-or-1-if-such-pair-doesn’t-exist-What-is-the-runtime-and-space-complexity-of-your-solution"><a href="#Your-function-should-return-2-such-indices-of-item-weights-or-1-if-such-pair-doesn’t-exist-What-is-the-runtime-and-space-complexity-of-your-solution" class="headerlink" title="Your function should return 2 such indices of item weights or -1 if such pair doesn’t exist. What is the runtime and space complexity of your solution?"></a>Your function should return 2 such indices of item weights or -1 if such pair doesn’t exist. What is the runtime and space complexity of your solution?</h3><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">findComplementingWeights([<span class="number">2</span>, <span class="number">4</span>, <span class="number">8</span>, <span class="number">14</span>], <span class="number">12</span>);</div><div class="line"><span class="comment">// [1, 2] or [2, 1]</span></div></pre></td></tr></table></figure></p>
-            <p class="article-more-link">
-                <a href="/blog/2016/08/02/merging-2-packages/#more">Read More</a>
-            </p>
-        
-        </div>
-        <footer class="article-footer">
-            <div class="share-container">
-
-
-
-</div>
-
-    <a data-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/" data-id="cirvvy0wr000hb9zvby9331r9" class="article-share-link"><i class="fa fa-share"></i>Share</a>
-<script>
-    (function ($) {
-        // Prevent duplicate binding
-        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
-            __SHARE_BUTTON_BINDED__ = true;
-        } else {
-            return;
-        }
-        $('body').on('click', function() {
-            $('.article-share-box.on').removeClass('on');
-        }).on('click', '.article-share-link', function(e) {
-            e.stopPropagation();
-
-            var $this = $(this),
-                url = $this.attr('data-url'),
-                encodedUrl = encodeURIComponent(url),
-                id = 'article-share-box-' + $this.attr('data-id'),
-                offset = $this.offset(),
-                box;
-
-            if ($('#' + id).length) {
-                box = $('#' + id);
-
-                if (box.hasClass('on')){
-                    box.removeClass('on');
-                    return;
-                }
-            } else {
-                var html = [
-                    '<div id="' + id + '" class="article-share-box">',
-                        '<input class="article-share-input" value="' + url + '">',
-                        '<div class="article-share-links">',
-                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
-                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
-                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
-                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
-                        '</div>',
-                    '</div>'
-                ].join('');
-
-              box = $(html);
-
-              $('body').append(box);
-            }
-
-            $('.article-share-box.on').hide();
-
-            box.css({
-                top: offset.top + 25,
-                left: offset.left
-            }).addClass('on');
-
-        }).on('click', '.article-share-box', function (e) {
-            e.stopPropagation();
-        }).on('click', '.article-share-box-input', function () {
-            $(this).select();
-        }).on('click', '.article-share-box-link', function (e) {
-            e.preventDefault();
-            e.stopPropagation();
-
-            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
-        });
-    })(jQuery);
-</script>
-
-            
-    
-        <a href="https://narr.github.io/blog/2016/08/02/merging-2-packages/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/02/merging-2-packages/">Comments</a>
-    
-
-        </footer>
-    </div>
-    
-</article>
-
-
-
     <nav id="page-nav">
         <span class="page-number current">1</span><a class="page-number" href="/blog/page/2/">2</a><a class="page-number" href="/blog/page/3/">3</a><a class="extend next" rel="next" href="/blog/page/2/">Next &raquo;</a>
     </nav>
@@ -1451,6 +1451,15 @@ ga('send', 'pageview');
         <h3 class="widget-title">recent</h3>
         <div class="widget">
             <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/blog/2016/08/16/matrix-spiral-print/" class="title">Matrix piral print</a></p>
+                            <p class="item-date"><time datetime="2016-08-15T23:31:42.000Z" itemprop="datePublished">2016-08-16</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -1488,15 +1497,6 @@ ga('send', 'pageview');
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/blog/2016/08/09/string-compression/" class="title">String compression</a></p>
-                            <p class="item-date"><time datetime="2016-08-09T15:00:29.000Z" itemprop="datePublished">2016-08-09</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1506,7 +1506,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">10</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/08/">August 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/07/">July 2016</a><span class="archive-list-count">11</span></li><li class="archive-list-item"><a class="archive-list-link" href="/blog/archives/2016/05/">May 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -1515,7 +1515,7 @@ ga('send', 'pageview');
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URI/">URI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URL/">URL</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">20</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/task/">task</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URI/">URI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/URL/">URL</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/algorithm/">algorithm</a><span class="tag-list-count">21</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/first/">first</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/blog/tags/task/">task</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
