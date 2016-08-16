@@ -3,14 +3,18 @@
 <head>
     <meta charset="utf-8">
     
-    <title>Tag: algorithm | Narr&#39;s Blog</title>
+    <title>Time planner | Narr&#39;s Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Narr's Blog">
-<meta property="og:url" content="https://narr.github.io/tags/algorithm/index.html">
+    <meta name="description" content="Implement a meeting planner that can schedule meetings between two persons at a time.Planner input:dur - Meeting duration in seconds (a positive integer).timesA, timesB - Availability of each person,">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Time planner">
+<meta property="og:url" content="https://narr.github.io/2016/08/16/time-planner/index.html">
 <meta property="og:site_name" content="Narr's Blog">
+<meta property="og:description" content="Implement a meeting planner that can schedule meetings between two persons at a time.Planner input:dur - Meeting duration in seconds (a positive integer).timesA, timesB - Availability of each person,">
+<meta property="og:updated_time" content="2016-08-16T13:46:48.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Narr's Blog">
+<meta name="twitter:title" content="Time planner">
+<meta name="twitter:description" content="Implement a meeting planner that can schedule meetings between two persons at a time.Planner input:dur - Meeting duration in seconds (a positive integer).timesA, timesB - Availability of each person,">
     
 
     
@@ -176,20 +180,16 @@ ga('send', 'pageview');
 </aside>
 
             
-            <section id="main">
-<div class="timeline timeline-wrap">
-    <div class="timeline-row timeline-row-major">
-        <span class="node"><i class="fa fa-tag"></i></span>
-        <h1 class="title">#algorithm</h1>
-    </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
+            <section id="main"><article id="post-time-planner" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+        
+            <header class="article-header">
                 
     
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/16/time-planner/">Time planner</a>
+        <h1 class="article-title" itemprop="name">
+            Time planner
         </h1>
     
 
@@ -211,293 +211,125 @@ ga('send', 'pageview');
     </div>
 
                 </div>
-            </div>
+            </header>
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+            
+            <h3 id="Implement-a-meeting-planner-that-can-schedule-meetings-between-two-persons-at-a-time"><a href="#Implement-a-meeting-planner-that-can-schedule-meetings-between-two-persons-at-a-time" class="headerlink" title="Implement a meeting planner that can schedule meetings between two persons at a time."></a>Implement a meeting planner that can schedule meetings between two persons at a time.</h3><h4 id="Planner-input"><a href="#Planner-input" class="headerlink" title="Planner input:"></a>Planner input:</h4><h4 id="dur-Meeting-duration-in-seconds-a-positive-integer"><a href="#dur-Meeting-duration-in-seconds-a-positive-integer" class="headerlink" title="dur - Meeting duration in seconds (a positive integer)."></a>dur - Meeting duration in seconds (a positive integer).</h4><h4 id="timesA-timesB-Availability-of-each-person-represented-by-an-array-of-arrays"><a href="#timesA-timesB-Availability-of-each-person-represented-by-an-array-of-arrays" class="headerlink" title="timesA, timesB - Availability of each person, represented by an array of arrays."></a>timesA, timesB - Availability of each person, represented by an array of arrays.</h4><h4 id="Each-sub-array-is-a-time-span-holding-the-start-first-element-and-end-second-element-times"><a href="#Each-sub-array-is-a-time-span-holding-the-start-first-element-and-end-second-element-times" class="headerlink" title="Each sub-array is a time span holding the start (first element) and end (second element) times."></a>Each sub-array is a time span holding the start (first element) and end (second element) times.</h4><h4 id="You-may-assume-that-time-spans-are-disjointed"><a href="#You-may-assume-that-time-spans-are-disjointed" class="headerlink" title="You may assume that time spans are disjointed."></a>You may assume that time spans are disjointed.</h4><h4 id="Planner-output"><a href="#Planner-output" class="headerlink" title="Planner output:"></a>Planner output:</h4><h4 id="Array-of-two-items-start-and-end-times-of-the-planned-meeting-representing-the-earliest-opportunity-for-the-two-persons-to-meet-for-a-dur-length-meeting-If-no-possible-meeting-can-be-scheduled-return-an-empty-array-instead"><a href="#Array-of-two-items-start-and-end-times-of-the-planned-meeting-representing-the-earliest-opportunity-for-the-two-persons-to-meet-for-a-dur-length-meeting-If-no-possible-meeting-can-be-scheduled-return-an-empty-array-instead" class="headerlink" title="Array of two items - start and end times of the planned meeting, representing the earliest opportunity for the two persons to meet for a dur length meeting. If no possible meeting can be scheduled, return an empty array instead."></a>Array of two items - start and end times of the planned meeting, representing the earliest opportunity for the two persons to meet for a dur length meeting. If no possible meeting can be scheduled, return an empty array instead.</h4><h4 id="Design-and-implement-an-efficient-solution-and-analyze-its-runtime-and-space-complexity"><a href="#Design-and-implement-an-efficient-solution-and-analyze-its-runtime-and-space-complexity" class="headerlink" title="Design and implement an efficient solution and analyze its runtime and space complexity."></a>Design and implement an efficient solution and analyze its runtime and space complexity.</h4><h4 id="example"><a href="#example" class="headerlink" title="example:"></a>example:</h4><figure class="highlight javascript"><table><tr><td class="code"><pre><div class="line">timePlanner(<span class="number">60</span>, [[<span class="number">150</span>, <span class="number">300</span>], [<span class="number">100</span>, <span class="number">200</span>]], [[<span class="number">50</span>, <span class="number">400</span>], [<span class="number">200</span>, <span class="number">300</span>]]);</div><div class="line"><span class="comment">// [100, 160]</span></div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p><br><iframe id="cp_embed_PzLPNE" src="//codepen.io/narr/embed/PzLPNE?height=2260&theme-id=0&slug-hash=PzLPNE&default-tab=js" scrolling="no" frameborder="no" height="2260" allowtransparency="true" allowfullscreen="true" class="cp_embed_iframe" style="width: 100%; overflow: hidden;"></iframe></p>
+
+        
         </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/16/matrix-spiral-print/">Matrix piral print</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/16/matrix-spiral-print/">
-            <time datetime="2016-08-15T23:31:42.000Z" itemprop="datePublished">2016-08-16</time>
-        </a>
-    </div>
+        <footer class="article-footer">
+            <div class="share-container">
 
 
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
 
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/15/array-of-array-products/">Array of array products</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/15/array-of-array-products/">
-            <time datetime="2016-08-15T07:45:32.000Z" itemprop="datePublished">2016-08-15</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/12/word-count-engine/">Word count engine</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/12/word-count-engine/">
-            <time datetime="2016-08-12T10:47:43.000Z" itemprop="datePublished">2016-08-12</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/10/rotated-sorted-array/">Rotated sorted array</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/10/rotated-sorted-array/">
-            <time datetime="2016-08-10T04:57:19.000Z" itemprop="datePublished">2016-08-10</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/09/string-compression/">String compression</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/09/string-compression/">
-            <time datetime="2016-08-09T15:00:29.000Z" itemprop="datePublished">2016-08-09</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/08/the-smallest-palindrome/">The smallest palindrome</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/08/the-smallest-palindrome/">
-            <time datetime="2016-08-08T06:54:04.000Z" itemprop="datePublished">2016-08-08</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/07/quad-combination/">Quad combination</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/07/quad-combination/">
-            <time datetime="2016-08-07T06:21:02.000Z" itemprop="datePublished">2016-08-07</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/04/smallest-substring-of-all-characters/">Smallest substring of all characters</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/04/smallest-substring-of-all-characters/">
-            <time datetime="2016-08-04T03:45:37.000Z" itemprop="datePublished">2016-08-04</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
-        <div class="timeline-row">
-            <span class="node"></span>
-            <div class="content">
-                
-    
-        <h1 itemprop="name">
-            <a class="timeline-article-title" href="/blog/2016/08/03/flatten-nested-arrays-of-integers/">Flatten nested arrays of integers</a>
-        </h1>
-    
-
-                <div class="article-meta">
-                    
-    <div class="article-date">
-        <i class="fa fa-calendar"></i>
-        <a href="/blog/2016/08/03/flatten-nested-arrays-of-integers/">
-            <time datetime="2016-08-03T09:06:26.000Z" itemprop="datePublished">2016-08-03</time>
-        </a>
-    </div>
-
-
-                    
-                    
-    <div class="article-tag">
-        <i class="fa fa-tag"></i>
-        <a class="tag-link" href="/blog/tags/algorithm/">algorithm</a>
-    </div>
-
-                </div>
-            </div>
-        </div>
-    
 </div>
 
-    <nav id="page-nav">
-        <span class="page-number current">1</span><a class="page-number" href="/blog/tags/algorithm/page/2/">2</a><a class="page-number" href="/blog/tags/algorithm/page/3/">3</a><a class="extend next" rel="next" href="/blog/tags/algorithm/page/2/">Next &raquo;</a>
-    </nav>
+    <a data-url="https://narr.github.io/blog/2016/08/16/time-planner/" data-id="cirxiz49e0014tzltwqhj9zv8" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fa fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fa fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fa fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fa fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+        <a href="https://narr.github.io/blog/2016/08/16/time-planner/#comments" class="article-comment-link disqus-comment-count" data-disqus-url="https://narr.github.io/blog/2016/08/16/time-planner/">Comments</a>
+    
+
+        </footer>
+    </div>
+    
+        
+<nav id="article-nav">
+    
+    
+        <a href="/blog/2016/08/16/matrix-spiral-print/" id="article-nav-older" class="article-nav-link-wrap">
+            <strong class="article-nav-caption">Older</strong>
+            <div class="article-nav-title">Matrix piral print</div>
+        </a>
+    
+</nav>
+
+
+    
+</article>
+
+
+    
+    <section id="comments">
+    
+        
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+    
+    </section>
+
 </section>
             
                 <aside id="sidebar">
@@ -594,11 +426,13 @@ ga('send', 'pageview');
     var disqus_shortname = 'narr';
     
     
+    var disqus_url = 'https://narr.github.io/blog/2016/08/16/time-planner/';
+    
     (function() {
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
     </script>
